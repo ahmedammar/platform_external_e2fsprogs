@@ -1,5 +1,5 @@
 ifneq ($(TARGET_SIMULATOR),true)
-ifeq ($(TARGET_ARCH),x86)
+ifneq (,$(filter x86 arm,$(TARGET_ARCH)))
 include $(call all-subdir-makefiles)
 endif
 endif
