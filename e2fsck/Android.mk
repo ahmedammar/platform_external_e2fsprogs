@@ -49,6 +49,7 @@ include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES :=  \
+	crc32.c \
 	e2fsck.c \
 	dict.c \
 	super.c \
@@ -69,7 +70,6 @@ LOCAL_SRC_FILES :=  \
 	ehandler.c \
 	problem.c \
 	message.c \
-	swapfs.c \
 	ea_refcount.c \
 	rehash.c \
 	region.c
@@ -114,7 +114,10 @@ LOCAL_CFLAGS := -O2 -g -W -Wall \
 	-DHAVE_EXT2_IOCTLS \
 	-DHAVE_TYPE_SSIZE_T \
 	-DHAVE_INTPTR_T \
-	-DENABLE_HTREE=1
+	-DENABLE_HTREE=1 \
+	-DROOT_SYSCONFDIR=\"/etc\"
+
+
 
 include $(BUILD_EXECUTABLE)
 

@@ -3,6 +3,7 @@
  *
  * Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,
  * 	2003, 2004, 2005 by Theodore Ts'o.
+ * Copyright (C) 2010 Freescale Semiconductor, Inc.
  *
  * %Begin-Header%
  * This file may be redistributed under the terms of the GNU Public
@@ -62,6 +63,8 @@ extern int optind;
 #include "prof_err.h"
 #include "../version.h"
 #include "nls-enable.h"
+
+#define open64 open
 
 #define STRIDE_LENGTH 8
 

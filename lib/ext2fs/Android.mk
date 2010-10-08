@@ -15,6 +15,8 @@ LOCAL_SRC_FILES := \
 	bmap.c \
 	check_desc.c \
 	closefs.c \
+	csum.c \
+	crc16.c \
 	dblist.c \
 	dblist_dir.c \
 	dirblock.c \
@@ -23,6 +25,7 @@ LOCAL_SRC_FILES := \
 	dupfs.c \
 	expanddir.c \
 	ext_attr.c \
+	extent.c \
 	finddev.c \
 	flushb.c \
 	freefs.c \
@@ -30,6 +33,7 @@ LOCAL_SRC_FILES := \
 	get_pathname.c \
 	getsize.c \
 	getsectsize.c \
+	i_block.c \
 	icount.c \
 	ind_block.c \
 	initialize.c \
@@ -48,12 +52,12 @@ LOCAL_SRC_FILES := \
 	read_bb.c \
 	read_bb_file.c \
 	res_gdt.c \
-	rs_bitmap.c \
 	rw_bitmaps.c \
 	swapfs.c \
 	tdb.c \
 	unix_io.c \
 	unlink.c \
+	undo_io.c \
 	valid_blk.c \
 	version.c
 

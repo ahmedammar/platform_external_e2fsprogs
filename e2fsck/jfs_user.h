@@ -3,6 +3,7 @@
  * instead of linux/jfs.h
  *
  * Copyright (C) 2000 Stephen C. Tweedie
+ * Copyright (C) 2010 Freescale Semiconductor, Inc.
  *
  * This file may be redistributed under the terms of the
  * GNU General Public License version 2 or at your discretion
@@ -61,7 +62,6 @@ typedef struct {
 
 #define cond_resched()	do { } while (0)
 
-typedef unsigned int __be32;
 
 #define __init
 

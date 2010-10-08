@@ -27,13 +27,11 @@ doc/libext2fs.pg
 doc/libext2fs.toc
 doc/libext2fs.tp
 doc/libext2fs.vr
-e2fsck/crc32table.h
 e2fsck/e2fsck
 e2fsck/e2fsck.8
 e2fsck/e2fsck.conf.5
 e2fsck/e2fsck.shared
 e2fsck/e2fsck.static
-e2fsck/gen_crc32table
 e2fsck/prof_err.c
 e2fsck/prof_err.h
 e2fsprogs.spec

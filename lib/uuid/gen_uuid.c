@@ -2,6 +2,7 @@
  * gen_uuid.c --- generate a DCE-compatible uuid
  *
  * Copyright (C) 1996, 1997, 1998, 1999 Theodore Ts'o.
+ * Copyright (C) 2010 Freescale Semiconductor, Inc.
  *
  * %Begin-Header%
  * Redistribution and use in source and binary forms, with or without
@@ -88,6 +89,9 @@
 #endif
 #ifdef HAVE_SYS_RESOURCE_H
 #include <sys/resource.h>
+#endif
+#ifdef HAVE_SYS_LIMITS_H
+#include <sys/limits.h>
 #endif
 
 #include "uuidP.h"
