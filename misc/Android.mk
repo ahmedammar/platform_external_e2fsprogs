@@ -42,7 +42,7 @@ LOCAL_CFLAGS := -O2 -g -W -Wall \
 LOCAL_CFLAGS += -DNO_CHECK_BB
 
 LOCAL_MODULE := mke2fs
-LOCAL_MODULE_TAGS := eng
+LOCAL_MODULE_TAGS := optional
 
 LOCAL_SYSTEM_SHARED_LIBRARIES := \
 	libext2fs \
@@ -96,7 +96,7 @@ LOCAL_CFLAGS := -O2 -g -W -Wall \
 LOCAL_CFLAGS += -DNO_CHECK_BB
 
 LOCAL_MODULE := tune2fs
-LOCAL_MODULE_TAGS := eng
+LOCAL_MODULE_TAGS := optional
 LOCAL_SYSTEM_SHARED_LIBRARIES := \
 	libext2fs \
 	libext2_com_err \
@@ -142,7 +142,7 @@ LOCAL_CFLAGS := -O2 -g -W -Wall \
 	-DROOT_SYSCONFDIR=\"/etc\"
 
 LOCAL_MODULE := badblocks
-LOCAL_MODULE_TAGS := systembuilder
+LOCAL_MODULE_TAGS := optional
 
 LOCAL_SYSTEM_SHARED_LIBRARIES := \
 	libext2fs \
