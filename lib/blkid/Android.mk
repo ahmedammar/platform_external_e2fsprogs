@@ -17,7 +17,7 @@ LOCAL_SRC_FILES := \
 
 
 LOCAL_MODULE := libext2_blkid
-LOCAL_MODULE_TAGS:= eng
+LOCAL_MODULE_TAGS:= optional
 LOCAL_SYSTEM_SHARED_LIBRARIES := libext2_uuid libc
 
 LOCAL_C_INCLUDES := external/e2fsprogs/lib

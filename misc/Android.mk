@@ -100,6 +100,9 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SYSTEM_SHARED_LIBRARIES := \
 	libext2fs \
 	libext2_com_err \
+	libext2_blkid \
+	libext2_uuid \
+	libext2_e2p \
 	libc
 
 include $(BUILD_EXECUTABLE)
